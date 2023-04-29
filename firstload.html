@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <style>
+    body {
+      background: linear-gradient(-45deg, #070707, black);
+      background-size: 400% 400%;
+      height: 100vh;
+    }
+
+    p {
+      font-size: 3vh;
+    }
+
+    .c-vertical {
+      margin-top: 10%;
+      opacity: 0%;
+      animation: opacy 5s;
+    }
+
+    img {
+      padding-top: 15%;
+      animation: scale 5s cubic-bezier(0.95, 0.00, 0, 1);
+      transform: scale(2);
+      width: 5%;
+    }
+
+    @keyframes opacy {
+      0% {
+        opacity: 0%;
+      }
+
+      30% {
+        opacity: 0%;
+      }
+
+      45% {
+        opacity: 100%;
+      }
+
+      65% {
+        opacity: 100%;
+      }
+
+      70% {
+        opacity: 0%;
+      }
+    }
+
+    @keyframes scale {
+      0% {
+        opacity: 100%;
+        width: 10%;
+        padding-top: 13%;
+      }
+
+      60% {
+        width: 5%;
+        padding-top: 12%;
+      }
+
+      80% {
+        padding-top: 15%;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+
+  <div class="text-center">
+    <img class="rounded" src="images/logo.svg">
+  </div>
+  <div class="c-vertical">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+      <p class="fw-light text-white m-0">ROOMCORE</p>
+    </div>
+  </div>
+</body>
+
+</html>
