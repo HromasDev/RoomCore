@@ -1,12 +1,12 @@
 # RoomCore
-RoomCore - отечественный это мессенджер, который использует языки HTML и CSS для создания интерфейса и функциональности. HTML используется для создания структуры мессенджера, а CSS - для оформления и стилизации.
+RoomCore is a native messenger written using HTML and CSS languages to create user interface and functionality. In addition, various programming languages such as JavaScript, PHP, and others are used to create the messenger logic.
 
-В мессенджере RoomCore пользователи могут создавать аккаунты, чтобы начать общаться с другими пользователями. Когда пользователь зарегистрировался, он может добавлять своих друзей в свой список контактов и общаться с ними в чате.
+The system consists of two main components: client and server parts. The client side is a user interface written in HTML and styled with CSS. It contains various interface elements such as chat windows, control panel, buttons and other elements that allow the user to communicate with other users.
 
-Для общения пользователи могут отправлять текстовые сообщения, фотографии, видео, документы и другие файлы. Кроме того, RoomCore поддерживает создание групповых чатов, где несколько пользователей могут общаться одновременно. В групповых чатах есть возможность обмена файлами и отправки сообщений.
+The server part is responsible for the messenger logic. It is written in programming languages such as PHP, JavaScript and others. The server part processes all user requests, ensures data security, manages the database and sends messages between users.
 
-Важной функцией мессенджера является безопасность. RoomCore использует шифрование, чтобы защитить личную информацию пользователей. Это позволяет предотвратить доступ к конфиденциальным данным, таким как личные сообщения, контактная информация и другие данные, хранящиеся в мессенджере.
+RoomCore uses a variety of security technologies such as data encryption, password hashing, protection against SQL Injection attacks, and others. Also, the messenger uses the HTTPS protocol to ensure the security of data transfer between the client and server parts.
 
-RoomCore также обладает простым и интуитивно понятным интерфейсом, что делает его привлекательным для широкого круга пользователей. Благодаря CSS, мессенджер может быть оформлен по желанию пользователя в любом стиле.
+RoomCore is also scalable, allowing it to support large numbers of users and handle large amounts of data. For this, various technologies are used, such as caching, horizontal and vertical scaling, load balancing, and others.
 
-В целом, RoomCore - это мощный и надежный мессенджер, который позволяет пользователям общаться и обмениваться информацией с друзьями и коллегами. Он обладает высоким уровнем безопасности и имеет простой и легкий в использовании интерфейс.
+All in all, RoomCore is a complex system that uses many technologies to provide security and messenger functionality. It consists of client and server parts that work together to provide fast and secure communication between users.
