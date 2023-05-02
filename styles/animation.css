@@ -1,1 +1,65 @@
+@font-face {
+    font-family: 'Arcade';
+    src: url('../fonts/ARCADECLASSIC.TTF');
+    /* Добавьте другие форматы шрифта, такие как woff и woff2, \n     для обеспечения совместимости в разных браузерах: */
+}
 
+body {
+    background: black;
+}
+
+.center .text-load {
+    animation: opacity 5s cubic-bezier(0.95, 0.00, 0, 1);
+    padding-top: 5vh;
+    font-size: 4vh;
+    color: #FF6060;
+    font-family: 'Arcade', cursive;
+    opacity: 0;
+}
+
+.center .img-load {
+    padding-top: 25vh;
+    opacity: 0;
+}
+
+img.img-load {
+    animation: scale 4s cubic-bezier(0.95, 0.00, 0, 1);
+    transform: scale(3);
+    width: 3%
+}
+
+@keyframes scale {
+    0% {
+        opacity: 1;
+        width: 5%;
+        padding-top: 20vh;
+    }
+
+    60% {
+        width: 3%;
+    }
+
+    80% {
+        opacity: 1;
+        padding-top: 20vh;
+    }
+
+    100% {
+        opacity: 0;
+        padding-top: 25vh;
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0%;
+    }
+
+    65% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 100%;
+    }
+}
