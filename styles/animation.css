@@ -1,7 +1,6 @@
 @font-face {
     font-family: 'Arcade';
     src: url('../fonts/ARCADECLASSIC.TTF');
-    /* Добавьте другие форматы шрифта, такие как woff и woff2, \n     для обеспечения совместимости в разных браузерах: */
 }
 
 body {
